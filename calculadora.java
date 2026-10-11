@@ -12,7 +12,7 @@ public static void menu(Scanner sc) {
         sc.nextLine();
         switch (op){
             case 1:
-                System.out.println("Digite o 1ª numero: ");
+               System.out.println("Digite o 1ª numero: ");
                 int mult1 = sc.nextInt();
                 sc.nextLine();
 
@@ -21,7 +21,6 @@ public static void menu(Scanner sc) {
                 sc.nextLine();
                 System.out.println("Resultado: " + multiplicacao(mult1, mult2));
                  break;
-
             case 2:
                 System.out.println("Qual número você vai dividir? ");
                 double n1 = sc.nextDouble();
@@ -35,6 +34,7 @@ public static void menu(Scanner sc) {
                 System.out.println("Resultado da divisão: " + divisao(n1,n2));
                  }
                 break;
+
             case 3:
                 System.out.println("Digite o 1ª numero para soma: ");
                 int sum1 = sc.nextInt();
@@ -46,8 +46,9 @@ public static void menu(Scanner sc) {
                 
                 System.out.println("Resultado da soma: " + soma(sum1, sum2));
                 break;
+
             case 4:
-                System.out.println("Digite o número:");
+               System.out.println("Digite o número:");
                 int sub1 = sc.nextInt();
                 sc.nextLine();
                 System.out.println("Por qual número você quer subtrair?");
@@ -56,14 +57,16 @@ public static void menu(Scanner sc) {
 
                 System.out.println("Resultado da subtração: " + subtrair(sub1, sub2));
                 break;
+
             case 5:
-                System.out.println("Digite um numero: ");
+               System.out.println("Digite um numero: ");
                 int numeroDigitado = sc.nextInt();
                 sc.nextLine();
                 tabuada(numeroDigitado);
                 break;
             case 6:
-                System.out.println("Saindo....");
+
+        System.out.println("Saindo....");
                 break;
             default:
                 System.out.println("Operação invalida");
